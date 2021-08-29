@@ -1,0 +1,2084 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 899542500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:31.583Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1973244400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate navigation to the todomvc list page",
+        "description": "\t\t\t\t\tValidate if placeHolder \"What needs to be done?\" is displayed in UI",
+        "id": "scenarios-to-validate-todomvc-page;validate-navigation-to-the-todomvc-list-page",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfbmF2aWdhdGlvbl90b190aGVfdG9kb212Y19saXN0X3BhZ2UuanBn",
+                "mime_type": "image/png",
+                "name": "Validate_navigation_to_the_todomvc_list_page"
+              }
+            ],
+            "result": {
+              "duration": 1419958700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 635271800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49893400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7951000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6003100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \"Vue.js • TodoMVC\" as page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vue.js • TodoMVC",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyPageTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77347000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"What needs to be done?\" displayed in the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What needs to be done?\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.chkPHldr(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 173511800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:36.686Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1128386000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate creation of a todo list",
+        "description": "\t\t\t\t\tValidate whether alphanumeric characters are accepted while adding an item",
+        "id": "scenarios-to-validate-todomvc-page;validate-creation-of-a-todo-list",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfY3JlYXRpb25fb2ZfYV90b2RvX2xpc3QuanBn",
+                "mime_type": "image/png",
+                "name": "Validate_creation_of_a_todo_list"
+              }
+            ],
+            "result": {
+              "duration": 2324347200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 645599100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3988600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 339311200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              },
+              {
+                "cells": [
+                  "send email to zzz@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188730700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              },
+              {
+                "cells": [
+                  "send email to zzz@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117904000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see All, Active, Completed filters in footer",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyFooter()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 194479500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:41.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1157162500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verify various filters from footer",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;verify-various-filters-from-footer",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmVyaWZ5X3ZhcmlvdXNfZmlsdGVyc19mcm9tX2Zvb3Rlci5qcGc\u003d",
+                "mime_type": "image/png",
+                "name": "Verify_various_filters_from_footer"
+              }
+            ],
+            "result": {
+              "duration": 2304136700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 624938600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2993400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 269914100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39927000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on 2nd checkbox to mark the item as completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyFooterFilter(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130476800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see following items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyModifiedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42246500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on \"Active\" filter from footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Active\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.clckFltrFooter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10970700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should not see any completed todo items in the list",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.cntCmpltdItems()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93673800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see following items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyModifiedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2959300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should see base url ends with \"#/active\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#/active\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.urlVerification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36256700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on \"Completed\" filter from footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Completed\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.clckFltrFooter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9480800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see only completed todo items in the list",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.cntActiveItems()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30125300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see following completed items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCompLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2794700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I should see base url ends with \"#/completed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#/completed\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.urlVerification(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39941200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on \"All\" filter from footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.clckFltrFooter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99588000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should see following completed items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCompLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4168700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I should see base url ends with \"#/all\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"#/all\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.urlVerification(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 378986800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:46.721Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1145650200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Verify Clear completed link from footer",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;verify-clear-completed-link-from-footer",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmVyaWZ5X0NsZWFyX2NvbXBsZXRlZF9saW5rX2Zyb21fZm9vdGVyLmpwZw\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "Verify_Clear_completed_link_from_footer"
+              }
+            ],
+            "result": {
+              "duration": 2272385700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1554481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4059300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 262388700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39205300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on 2nd checkbox to mark the item as completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyFooterFilter(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129522200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should see following items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyModifiedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32938600,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on \"Clear completed\" button from footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clear completed\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.btnClck(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87611800,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I should see following items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyModifiedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 660385200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:52.632Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1144163500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Validate marking all items as completed functionality",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;validate-marking-all-items-as-completed-functionality",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfbWFya2luZ19hbGxfaXRlbXNfYXNfY29tcGxldGVkX2Z1bmN0aW9uYWxpdHkuanBn",
+                "mime_type": "image/png",
+                "name": "Validate_marking_all_items_as_completed_functionality"
+              }
+            ],
+            "result": {
+              "duration": 2282289700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1115050300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3987900,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 243354200,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33616700,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I click on down arrow to mark all items as completed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.markAllCmpltd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10032400,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I should see only completed todo items in the list",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.cntActiveItems()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114948200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I should see following completed items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCompLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19219600,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I should see \"0 items left\" in the footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0 items left\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.msgInFooter(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 376321000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:26:58.265Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1159161800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "Validate removing active and completed items by clicking on destroy button",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;validate-removing-active-and-completed-items-by-clicking-on-destroy-button",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfcmVtb3ZpbmdfYWN0aXZlX2FuZF9jb21wbGV0ZWRfaXRlbXNfYnlfY2xpY2tpbmdfb25fZGVzdHJveV9idXR0b24uanBn",
+                "mime_type": "image/png",
+                "name": "Validate_removing_active_and_completed_items_by_clicking_on_destroy_button"
+              }
+            ],
+            "result": {
+              "duration": 2300600600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1116031000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3989600,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 265498000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38414300,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I click on 2nd checkbox to mark the item as completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyFooterFilter(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14960300,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I click on destory button next to \"Buy RayBan sunglasses\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buy RayBan sunglasses\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.clckDestroyBtn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15959000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I click on destory button next to \"Pizza from Joes pizzaria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pizza from Joes pizzaria\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.clckDestroyBtn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94859000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I should see following items listed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyModifiedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 231819600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:27:03.658Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1145146600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 110,
+        "name": "Validate editing a todo item",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;validate-editing-a-todo-item",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfZWRpdGluZ19hX3RvZG9faXRlbS5qcGc\u003d",
+                "mime_type": "image/png",
+                "name": "Validate_editing_a_todo_item"
+              }
+            ],
+            "result": {
+              "duration": 2313697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1504837000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992400,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 67817700,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87776300,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 292305700,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I edit \"Buy groceries\" as \" @ Whole Foods\" in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buy groceries\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\" @ Whole Foods\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.editAnItem(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50877800,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries @ Whole Foods"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 232367300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:27:09.361Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1021700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1142062100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 120,
+        "name": "Validate whether user is defaulted to home page after clearing all completed items",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;validate-whether-user-is-defaulted-to-home-page-after-clearing-all-completed-items",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmFsaWRhdGVfd2hldGhlcl91c2VyX2lzX2RlZmF1bHRlZF90b19ob21lX3BhZ2VfYWZ0ZXJfY2xlYXJpbmdfYWxsX2NvbXBsZXRlZF9pdGVtcy5qcGc\u003d",
+                "mime_type": "image/png",
+                "name": "Validate_whether_user_is_defaulted_to_home_page_after_clearing_all_completed_items"
+              }
+            ],
+            "result": {
+              "duration": 2279938300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 611915900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3990600,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 263305300,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33728200,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I click on down arrow to mark all items as completed",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.markAllCmpltd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8833200,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I should see only completed todo items in the list",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.cntActiveItems()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34918600,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I click on \"Clear completed\" button from footer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Clear completed\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.btnClck(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32450100,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "I should see \"What needs to be done?\" displayed in the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What needs to be done?\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.chkPHldr(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17439700,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "I should not see any to do item in the list",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.noToDoItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2974400,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 206216800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:27:14.033Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1361290700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 135,
+        "name": "Verify whether list is maintained when user launches the application in same browser session",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;verify-whether-list-is-maintained-when-user-launches-the-application-in-same-browser-session",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmVyaWZ5X3doZXRoZXJfbGlzdF9pc19tYWludGFpbmVkX3doZW5fdXNlcl9sYXVuY2hlc190aGVfYXBwbGljYXRpb25faW5fc2FtZV9icm93c2VyX3Nlc3Npb24uanBn",
+                "mime_type": "image/png",
+                "name": "Verify_whether_list_is_maintained_when_user_launches_the_application_in_same_browser_session"
+              }
+            ],
+            "result": {
+              "duration": 2279512900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 647551300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991100,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 252350500,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147283900,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5202332900,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "user launches todomvc page url in new tab of same browser session",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createNewBSession()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160602600,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              },
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              },
+              {
+                "cells": [
+                  "Get dry cleaned clothes"
+                ]
+              },
+              {
+                "cells": [
+                  "Pizza from Joes pizzaria"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 340140900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches todomvc page url",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.user_launches_todomvc_page_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-29T15:27:24.303Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1140043900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.lauchBrwsr()"
+            }
+          }
+        ],
+        "line": 154,
+        "name": "Verify if user doesn\u0027t press enter key entered data is not added to the list",
+        "description": "",
+        "id": "scenarios-to-validate-todomvc-page;verify-if-user-doesn-t-press-enter-key-entered-data-is-not-added-to-the-list",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcbmlybWFcU2luZ1RlbFRlc3RBcnRpZmFjdC90YXJnZXQvU2F2ZVJlc3VsdHMvU2NyZWVuc2hvdHMvVmVyaWZ5X2lmX3VzZXJfZG9lc24ndF9wcmVzc19lbnRlcl9rZXlfZW50ZXJlZF9kYXRhX2lzX25vdF9hZGRlZF90b190aGVfbGlzdC5qcGc\u003d",
+                "mime_type": "image/png",
+                "name": "Verify_if_user_doesn\u0027t_press_enter_key_entered_data_is_not_added_to_the_list"
+              }
+            ],
+            "result": {
+              "duration": 2296263700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 648464900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDownAftHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3990400,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "user should be navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyLandingPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 65823500,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "user creates a list with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createList(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46874300,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "user creates a list with following items but do not press enter",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.createListNoEnter(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy RayBan sunglasses"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53257300,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "user refreshes the page",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.refresh()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73610000,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "I should see a list created with following items",
+            "match": {
+              "location": "StepDefinitions.ToDoMVCFunctionalitesStepDef.verifyCreatedLst(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Buy groceries"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Scenarios to validate ToDoMVC page",
+    "description": "",
+    "id": "scenarios-to-validate-todomvc-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ToDoMVCFunctionalites.feature",
+    "tags": []
+  }
+]
