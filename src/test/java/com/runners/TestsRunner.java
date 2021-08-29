@@ -9,7 +9,9 @@ import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-	plugin= {"pretty", "html:target/cucumber-reports/cucumber.html", "json:target/cucumber-reports/cucumber.json"}, 
+	plugin= {"pretty", "html:target/cucumber-reports/cucumber.html", "json:target/cucumber-reports/cucumber.json"
+			, "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+			, "timeline:test-output-thread"}, 
 	features= {"src/test/resources/features"},
 	glue= {"StepDefinitions", "com.hooks"},
 	monochrome=true,
